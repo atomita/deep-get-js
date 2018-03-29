@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t(e.deepGet={})}(this,function(e){"use strict";e.deepGet=function e(t,n,i){if(void 0===i&&(i="."),null==t)return t;var f=n.indexOf(i);return f<0?t[n]:e(t[n.slice(0,f)],n.slice(f+1),i)}});
+//# sourceMappingURL=deep-get.js.map
